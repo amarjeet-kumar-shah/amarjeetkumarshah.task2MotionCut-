@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Show Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="slider">
+            <div class="slide fade">
+                <img src="1pic.jpg"
+                    alt="Slide 1">
+                <div class="caption">Sunflower</div>
+            </div>
+            <div class="slide fade">
+                <img src="2pic.jpg"
+                    alt="Slide 2">
+                <div class="caption">Jesmin</div>
+            </div>
+            <div class="slide fade">
+                <img src="3pic.jpg"
+                    alt="Slide 3">
+                <div class="caption">Gudhal</div>
+            </div>
+        </div>
+
+
+        <span class="prev" onclick="changeSlide(-1)">&#10094;</span>
+        <span class="next" onclick="changeSlide(1)">&#10095;</span>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
